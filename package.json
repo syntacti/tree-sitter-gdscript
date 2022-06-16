@@ -10,12 +10,12 @@
   "author": "Preston Knopp",
   "license": "MIT",
   "dependencies": {
-    "nan": "^2.14.2",
+    "nan": "^2.16.0",
     "prebuild-install": "^6.0.0"
   },
   "devDependencies": {
     "prebuild": "^10.0.1",
-    "tree-sitter-cli": "^0.20.0"
+    "tree-sitter-cli": "^0.20.6"
   },
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
